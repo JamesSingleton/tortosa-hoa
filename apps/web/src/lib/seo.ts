@@ -54,7 +54,7 @@ export async function getMetaData(data: MetaDataInput = {}): Promise<Metadata> {
   });
 
   // Use siteTitle from settings for branding, with a fallback only if settings are not available
-  const brandName = siteTitle || "Roboto Studio Demo";
+  const brandName = siteTitle || "Tortosa HOA";
 
   return {
     title: `${meta.title} | ${brandName}`,
